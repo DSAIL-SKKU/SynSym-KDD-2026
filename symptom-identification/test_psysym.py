@@ -185,6 +185,7 @@ if __name__ == '__main__':
         CustomArgs(["-opt", "--option"], type=str, target="info;option"),
         CustomArgs(["-data", "--data"], type=int, target="info;data"),
         CustomArgs(["-eval", "--eval"], type=str, target="eval"),
+        CustomArgs(["-fold", "--fold"], type=int, target="info;fold"),
         CustomArgs(["-seed", "--seed"], type=int, target="info;seed"),
         CustomArgs(["--mode", "--mode"], type=str, target="info;mode"),
     ]
